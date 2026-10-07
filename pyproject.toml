@@ -1,0 +1,9 @@
+[project]
+name = "telecom-support-agent"
+version = "0.1.0"
+description = "Tool-using LLM support agent for a mobile operator, with a guard layer tested against misbehaving models"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

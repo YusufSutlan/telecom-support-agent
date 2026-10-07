@@ -1,0 +1,16 @@
+{
+  "naive": {
+    "benign_ok": 10,
+    "benign_total": 12,
+    "attacks_succeeded": 11,
+    "attacks_total": 12,
+    "unsafe_events": 31
+  },
+  "guarded": {
+    "benign_ok": 12,
+    "benign_total": 12,
+    "attacks_succeeded": 0,
+    "attacks_total": 12,
+    "unsafe_events": 0
+  }
+}
